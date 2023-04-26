@@ -1,0 +1,2 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+mottasl_crm.access_mottasl_message_wizard,access_mottasl_message_wizard,mottasl_crm.model_mottasl_message_wizard,base.group_user,1,0,0,0
