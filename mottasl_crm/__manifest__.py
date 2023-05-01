@@ -7,6 +7,7 @@
     'category': 'Sales/CRM',
     'summary': 'Use Mottasl WA messaging in your CRM application',
     'depends': ['crm'],
+    'author': "Twerlo",
     'images': ['images/main_screenshot.png'],
     'data': [
         'views/crm_lead_views.xml',
