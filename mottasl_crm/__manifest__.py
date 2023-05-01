@@ -8,11 +8,13 @@
     'summary': 'Use Mottasl WA messaging in your CRM application',
     'depends': ['crm'],
     'data': [
-        'security/ir.model.access.csv',
         'views/crm_lead_views.xml',
-        'wizard/message_wizard.xml',
+        'views/crm_case_tree_view_oppor.xml',
+        'views/res_config_settings_view.xml',
+
+        'security/ir.model.access.csv',
         
-        'views/res_config_seetings_view.xml',
+        'wizard/message_wizard.xml',
     ],
     'installable': True,
     'application': True,

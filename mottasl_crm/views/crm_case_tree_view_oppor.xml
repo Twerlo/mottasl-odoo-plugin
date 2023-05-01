@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="crm_case_tree_view_oppor" model="ir.ui.view">
+        <field name="name">crm.lead.tree.inherit.mottasl</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.crm_case_tree_view_oppor"/>
+        <field name="arch" type="xml">
+            <xpath expr="//header" position="inside">
+                <button name="send_mulitple_wa_messages" class="oe_highlight ml16 bg-success" type="object"
+                    string="Message" icon="fa-whatsapp" />
+            </xpath>
+        </field>
+    </record>
+</odoo>
